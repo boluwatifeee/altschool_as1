@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root {
+--inner-bg-color: #ffffff;
+--nav-bg-color: #ccc;
+--active-link: rgb(109, 6, 6);
+}
+
+body {
+    background: url(back.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    background-color: var(--inner-bg-color);
+    border-radius: 2rem;
+    margin: 3rem 12rem;
+    padding: 2rem;
+}
+
+#name {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.menu {
+    padding: 1rem;
+    background-color: var(--nav-bg-color);
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+#avatar {
+    display: flex;
+    margin: 0 auto;
+    height: 50%;
+    width: 50%;
+}
+
+.about,.education,.experience,.hobbies {
+    text-align: center;
+}
+
+.education ul li {
+    padding: 0.5rem;
+}
+
+.experience ul li {
+    padding: 1rem;
+}
+
+.hobbies ul li{
+    margin-right: 2rem;
+    padding: 0.2rem;
+}
+
+.submit {
+    width: 100%;
+    border-radius: 1rem;
+    background-color: var(--nav-bg-color);
+    padding: 0.5rem;
+}
+
+.already p {
+    text-align: center;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--inner-bg-color);
+}
+
+.active {
+    color: var(--active-link);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+

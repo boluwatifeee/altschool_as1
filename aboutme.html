@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boluwatife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="nav-bar">
+            <nav class="menu">
+                <a href="#aboutme" class="active" target="_self">About Me</a>
+                <a href="#contact" class="active" target="_self">Contact Me</a>
+                <a href="register.html" target="_blank">Register</a>
+                <a href="login.html" target="_blank">Log In</a>
+                <a href="calculator.html" target="_blank">Calculator</a>
+            </nav>
+        </div>
+    
+        <div id="aboutme">
+
+            <h3 id="name">Boluwatife Ladeinde</h3>
+            <img id="avatar" src="me.png" alt="">
+                        
+            <div class="about">
+                <h1>About Me</h1>
+                <p>I am a Computer Engineer passionate about technology and anything built with it.
+                My goal for this Diploma course is to learn new things and collaborate with others along the way.</p>
+            </div>
+
+            <div class="education">
+                <h2>Education</h2>
+                <ul class="Education">
+                    <li>B.Sc Computer Engineering(University of Lagos,Akoka)</li>
+                    <li>Udemy certification: The complete 2022 web development bootcamp by Angela Yu</li>
+                </ul>
+            </div>
+           
+            <div class="experience">
+                <h2>Job Experience</h2>
+                <ul>
+                    <li>Network Infrastructure Engineer intern(July 2019-January 2020)<br>Lagos State Ministry of Science and Technology</li>
+                    <li>Software Engineer intern(May 2022-present) <br>Jhool Consultancy</li>
+                </ul>
+            </div>
+            
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Reading Novels</li>
+                    <li>Drawing</li>
+                </ul>
+            </div>
+    
+        </div>
+
+        <hr>
+
+        <div id="contact">
+            <h1>Contact Me!</h1>
+            <form action="" method="post">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="your-name" placeholder="Enter your name.." required>
+                </div><br>
+
+                <div>
+                    <label for="email">Email address:</label><br>
+                    <input type="email" name="email" id="email" class="form1" placeholder="Enter your email address.." required>
+                </div><br>
+
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" rows="20" cols="80">Your message...</textarea>
+                </div><br>
+
+                <div>
+                    <label for="priority">Priority</label><br>
+                    <select required>
+                        <option value="high">High</option>
+                        <option value="low">Low</option>
+                    </select>
+                </div><br>
+
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    </div>
+</body>
+</html>
